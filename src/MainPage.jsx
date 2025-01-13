@@ -30,7 +30,7 @@ const MainPage = ({ sessionFunction }) => {
             console.log('Sending request')
             const webhookUrl = import.meta.env.VITE_API_URL;;
             console.log(webhookUrl)
-            const response = await axios.get('https://light-husky-65.hooks.n8n.cloud/webhook-test/7b1191af-c812-474e-b766-aea2efd79351', {
+            const response = await axios.get(webhookUrl, {
                 params: { youtubeURL },
             });
 
