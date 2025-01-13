@@ -10,9 +10,7 @@ export default function SignIn() {
     const handleSignIn = async (event) => {
         event.preventDefault();
         setLoading(true);
-        const { error } = await signInEmailPasswordless(email, {
-            redirectTo: 'https://6784aa230f3572a4a836ee7a--youtubesummary.netlify.app/'
-        });
+        const { error } = await signInEmailPasswordless(email);
 
         if (error) {
             console.error({ error });
