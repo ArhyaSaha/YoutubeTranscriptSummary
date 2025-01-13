@@ -3,7 +3,6 @@ import { NhostProvider } from '@nhost/react'
 import { nhost } from './lib/nhost.js'
 import SignIn from './signin'
 import { useEffect, useState } from 'react'
-import MainPage from './mainpage.jsx'
 
 
 function App() {
