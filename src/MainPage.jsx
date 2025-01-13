@@ -30,9 +30,7 @@ const MainPage = ({ sessionFunction }) => {
             console.log('Sending request')
             const webhookUrl = import.meta.env.VITE_API_URL;;
             console.log(webhookUrl)
-            const response = await axios.get(webhookUrl, {
-                params: { youtubeURL },
-            });
+            const response = await axios.get(webhookUrl + '?youtubeURL=' + youtubeURL);
 
             console.log(response.data)
             setSummary(response.data);
