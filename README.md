@@ -59,7 +59,7 @@ You can access the deployed application at [YouTube Video AI Summarizer](https:/
 
 Below is a screenshot of the n8n workflow used in this project. You can paste your own screenshot here:
 
-![n8n Workflow](path/to/your/screenshot.png)
+![n8n Workflow](public/n8nWorkflow.png)
 
 ## Contributing
 
